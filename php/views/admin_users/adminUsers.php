@@ -77,7 +77,10 @@
                             <input type="email" class="form-control" id="mail">
                         </div>
                         <div class="text-center">
+<<<<<<< HEAD
                             <br> 
+=======
+>>>>>>> main
                             <button class="btn btn-primary btnSaveUser" id="btnActionUser">Guardar</button>
                             <button class="btn btn-secondary clearForm">Limpiar</button>
                         </div>

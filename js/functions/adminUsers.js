@@ -23,7 +23,13 @@ $(document).ready(function () {
         console.log(data);
 
         if (data.response == true) {
-          console.log (data,"se registro con exito")
+          Swal.fire({
+            title: "se registro con exito!",
+            icon: "success",
+            draggable: true,
+            timer: 1500,
+          });
+          console.log (data,"se registro con exito");
           location.reload();
         } else {
           Swal.fire({

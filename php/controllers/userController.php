@@ -24,11 +24,7 @@ function saveUser()
         id_users_status,
         name,
         lastname,
-<<<<<<< HEAD
         addres,
-=======
-        address,
->>>>>>> main
         mail) 
         VALUES(
             1,
